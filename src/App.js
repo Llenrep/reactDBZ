@@ -3,8 +3,15 @@ import './App.css';
 import Background from './components/images/GokuBG.jpg';
 import liveBG from './components/images/DBSbg.mp4';
 import Card from "./components/Card/Card.js";
+import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
 
+
+// cardStyling = {
+//   border: "1.2px solid black",
+//   width: '10%',
+//   height: '10%'
+// }
 
 var thebackgroundImage = {
   width: "100%",
@@ -45,20 +52,22 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+        <Wrapper>
+          <section style={sectionStyle}>
+            <center><h1>React Click</h1></center>
+            <center><h6 style={fontStyle}>DragonBall Style</h6></center>
+            <div className="container">
+              <ColoredLine color="red" />
+            </div>
 
+            <div className="container">
+              <ul>
+                <Card characters={characters} />;
+              </ul>
+            </div>
 
-
-        <section style={sectionStyle}>
-          <center><h1>React Click</h1></center>
-          <center><h6 style={fontStyle}>DragonBall Style</h6></center>
-          <div className="container">
-            <ColoredLine color="red" />
-          </div>
-
-          <Card characters={characters} />;
           </section>
-
-
+        </Wrapper>
       </React.Fragment >
     );
   }

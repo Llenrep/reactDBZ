@@ -3,17 +3,21 @@ import "./Card.css";
 
 function Card(props) {
     return (
-        <ul>
-            {props.characters.map(char => (
-                <li key={char.id}>
+
+
+        props.characters.map(char => (
+            <div key={char.id}>
+                <button clicked="no">
                     <div className="card">
                         <div className="img-container">
                             <img alt={char.name} src={char.image} />
                         </div>
                     </div>
-                </li>
-            ))}
-        </ul>
+                </button>
+            </div >
+        ))
+
+
     );
 }
 
