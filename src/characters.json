@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Goku",
+        "image": "https://qph.fs.quoracdn.net/main-qimg-58fe790b96b1b25ccb6c35e95dacb96d"
+    },
+    {
+        "id": 2,
+        "name": "Vegeta",
+        "image": "https://i.ytimg.com/vi/W3qumSlCa7c/hqdefault.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Krillin",
+        "image": "https://img.buzzfeed.com/buzzfeed-static/static/2015-08/6/20/campaign_images/webdr05/krillin-doesnt-do-yolo-2-16521-1438906568-1_dblbig.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bulma",
+        "image": "https://www.themarysue.com/wp-content/uploads/2017/11/713a433cef988fd9cf57d80362aced720c1d75d8_hq.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Yamcha",
+        "image": "https://vignette.wikia.nocookie.net/teamfourstar/images/9/9c/Yamcha_at_Goku%27s_House.png/revision/latest?cb=20160202052424"
+    },
+    {
+        "id": 6,
+        "name": "Piccolo",
+        "image": "https://img1.ak.crunchyroll.com/i/spire3/a3bbf2ada6929c9d3d63d53dc059c7481525871445_large.png"
+    },
+    {
+        "id": 7,
+        "name": "Supreme Kai",
+        "image": "https://res.cloudinary.com/teepublic/image/private/s--TkMY4Wsl--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1500055306/production/designs/1738256_1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "King Kai",
+        "image": "https://vignette.wikia.nocookie.net/dragonball/images/6/61/KingKaiNV.png/revision/latest?cb=20100502151704"
+    },
+    {
+        "id": 9,
+        "name": "Tien",
+        "image": "https://static.comicvine.com/uploads/original/11119/111192712/4479867-tientribeam.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Trunks",
+        "image": "https://as01.epimg.net/meristation/imagenes/2018/07/04/noticia/1530689820_467189_1531507729_sumario_normal.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Beerus",
+        "image": "https://medias.spotern.com/spots/w640/69230-1532336916.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Whis",
+        "image": "https://pm1.narvii.com/6220/ad182e29ab2e5816b72f2c00d9341ec80e912f12_hq.jpg"
+    },
+    {
+        "id": 13,
+        "name": "ChiChi",
+        "image": "https://vignette.wikia.nocookie.net/dragonuniverse/images/0/0a/ChiChiAdult.png/revision/latest?cb=20171028115800"
+    },
+    {
+        "id": 14,
+        "name": "Hit",
+        "image": "https://i.ytimg.com/vi/BrfLQHHS5AU/hqdefault.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Gohan",
+        "image": "https://imgix.ranker.com/user_node_img/50081/1001614819/original/my-father-and-_39_s-son-photo-u2?w=650&q=50&fm=jpg&fit=crop&crop=faces"
+    },
+    {
+        "id": 16,
+        "name": "Gotenks",
+        "image": "https://qph.fs.quoracdn.net/main-qimg-80c5600c1d9c0c82b95c4e46af1acafa"
+    }
+]
