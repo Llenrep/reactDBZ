@@ -7,25 +7,19 @@ import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
 
 
-// cardStyling = {
-//   border: "1.2px solid black",
-//   width: '10%',
-//   height: '10%'
-// }
-
-var thebackgroundImage = {
-  width: "100%",
-  height: "100vh",
-  zIndex: '0'
+var aCStyle = {
+  fontSize: "12px",
+  fontStyle: "italic",
+  // float: "right",
+  margin: "10px 10px 10px 10px",
+  bottom: '4'
 }
 
 var sectionStyle = { //regular font for the entirety of the section. more so the introduction though
   width: "100%",
-  height: "100vh",
-  bottom: "15",
+  height: "100%",
   backgroundImage: "url(" + Background + ")",
   color: "white",
-  alignContent: "center",
   textShadow: "2px 2px #ff0000"
 };
 
@@ -49,7 +43,35 @@ const ColoredLine = ({ color }) => ( //for any time I want to implement HR tags
 </video> */
 
 class App extends Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+      wins: 0,
+      loss: 0,
+      amountClicked: 0
+    }
+
+    this.addTotal = this.addTotal.bind(this);
+  }
+
+  addTotal(e) {
+    var { amountClicked } = this.state.amountClicked;
+    this.setState({ amountClicked: amountClicked + e })
+    console.log(amountClicked)
+  }
+
+  // addTotal = () => {
+  //   const { amountClicked } = this.state.amountClicked;
+  //   console.log(amountClicked)
+  //   this.setState({ amountClicked: amountClicked + 1 })
+  // }
+
   render() {
+
+    console.log("rendering");
+
     return (
       <React.Fragment>
         <Wrapper>
@@ -59,10 +81,11 @@ class App extends Component {
             <div className="container">
               <ColoredLine color="red" />
             </div>
-
+            <center style={fontStyle}><h6>Wins: {this.state.wins}</h6><h6>Loss: {this.state.loss}</h6></center>
+            <h6 style={aCStyle}>Amount Clicked: {this.state.amountClicked} out of 16!</h6>
             <div className="container">
               <ul>
-                <Card characters={characters} />;
+                <Card characters={characters} />
               </ul>
             </div>
 
@@ -71,6 +94,7 @@ class App extends Component {
       </React.Fragment >
     );
   }
+
 }
 
 export default App;
