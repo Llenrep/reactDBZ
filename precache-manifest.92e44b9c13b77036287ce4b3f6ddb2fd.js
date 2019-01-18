@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/reactDBZ/static/js/runtime~main.3a8700d6.js"
   },
   {
-    "revision": "01f216f958edd068fe09",
-    "url": "/reactDBZ/static/js/main.01f216f9.chunk.js"
+    "revision": "d9dec74dced32e759ac8",
+    "url": "/reactDBZ/static/js/main.d9dec74d.chunk.js"
   },
   {
-    "revision": "916b373cfef80c85a28b",
-    "url": "/reactDBZ/static/js/1.916b373c.chunk.js"
+    "revision": "0de229b10717e96b1884",
+    "url": "/reactDBZ/static/js/1.0de229b1.chunk.js"
   },
   {
-    "revision": "01f216f958edd068fe09",
-    "url": "/reactDBZ/static/css/main.f3021d28.chunk.css"
+    "revision": "d9dec74dced32e759ac8",
+    "url": "/reactDBZ/static/css/main.fb561966.chunk.css"
   },
   {
-    "revision": "4306d8fa5f4117d60469174f120dff89",
+    "revision": "3dbb597cf2019694f555eb109569d38a",
     "url": "/reactDBZ/index.html"
   }
 ];
